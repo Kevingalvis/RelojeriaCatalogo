@@ -1,0 +1,392 @@
+@font-face {
+    font-family: JOYERIA;
+    src: url(../Assets/fonts/JOYERIA.ttf);
+}
+@font-face {
+    font-family: MSUIGHUR;
+    src: url(../Assets/fonts/MSUIGHUR.TTF);
+}
+
+*{
+    font-family: JOYERIA;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media (min-width:999px) {
+/*CREACION DEL HEADER LOGOS*/
+.cont-header{
+    width: 100%;
+    height: 100vh;
+ 
+}
+
+.header{
+    width:70%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    background: #333333;
+    background-image: url(../Assets/logo/Decoracion-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 100%;
+
+    box-shadow: 2px 2px 51px -11px rgba(0,0,0,0.75);
+
+}
+.cont-figure{
+    width: 40%;
+    height: 50%;
+
+}
+
+/*CONTENEDOR REDES*/
+.cont-redes{
+    width: 180px;
+    height: 350px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    
+
+    
+}
+.link-redes{
+    width: 70px;
+    
+}
+.link-redes img{
+    width: 70%;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+/*SECTION CATALOGO*/
+.cont-sect{
+    width: 100%;
+    height: auto;
+}
+.cont-art{
+    width:70%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px goldenrod solid;
+    box-shadow: 2px 2px 51px -11px rgba(0,0,0,0.75);
+
+    
+}
+.cont-catalogo{ 
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background-image: url(../Assets/logo/Decoracion-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 100%;
+}
+
+.title-catalogo{
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: -10;
+ 
+}
+
+.logo-catalogo{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    background: #333333;
+}
+.logo-catalogo img{
+    width: 100%;
+
+}
+.text-title{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-bottom: 2px gold solid;
+   
+}
+.text-title h2{
+    font-size: 4rem;
+}
+.text-title h3{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+.cont-caracteristica{
+    width: 370px;
+    height: 200px;
+    position: absolute;
+    bottom:7rem;
+    left: 4.8rem;
+    border: 1px goldenrod solid;
+    border-radius: 15px;
+}
+
+.caracteristica{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    
+}
+.caracteristica h3{
+    font-family: MSUIGHUR;
+    font-weight: 100;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.cont-button{
+    width: 100%;
+    height: 50px;
+   
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cont-button a{
+    text-decoration: none;
+    background: #333333;
+    padding: 10px;
+    border-radius: 10px;
+    color: gold;
+    margin-top: 10px;
+
+}
+.figure-catalogo{
+    width: 400px;
+    height: 400px;
+   
+    position: absolute;
+    bottom: 3rem;
+    right: 5rem;
+
+    z-index: -10;
+
+}
+.figure-catalogo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+    filter: drop-shadow(0 2px 5px rgba(229, 247, 30, 0.7));
+}
+   
+}
+
+@media (min-width: 0px) and (max-width: 999px){
+    /*CREACION DEL HEADER LOGOS*/
+    .cont-header{
+        width: 100%;
+        height: 70vh;
+    
+    }
+    .header{
+        width:100%;
+        height: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0 auto;
+    
+        background: #333333;
+        background-image: url(../Assets/logo/Decoracion-8.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 95% 100%;
+    
+        box-shadow: 2px 2px 51px -11px rgba(0,0,0,0.75);
+    
+    }
+    .cont-figure{
+        width:70%;
+        height: 50%;
+    }
+    /*CONTENEDOR REDES*/
+    .cont-redes{
+        width: 180px;
+        height: 350px;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        position: fixed;
+        right: 0;
+        bottom: 20px;   
+      
+        z-index: 10;     
+    }
+    .link-redes{
+        width: 70px;
+        
+    }
+    .link-redes img{
+        width: 70%;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    }
+    /*SECTION CATALOGO*/
+    .cont-sect{
+        width: 100%;
+        height: auto;
+    }
+    .cont-art{
+        width:95%;
+        height: 100%;
+        margin: 0 auto;
+        border: 1px goldenrod solid;
+        box-shadow: 2px 2px 51px -11px rgba(0,0,0,0.75); 
+    }
+    .cont-catalogo{ 
+        width: 100%;
+        height: 700px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-image: url(../Assets/logo/Decoracion-8.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .title-catalogo{
+        width: 100%;
+        height: 20%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: -10;
+     
+    }
+
+    .logo-catalogo{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        background: #333333;
+    }
+    .logo-catalogo img{
+        width: 100%;
+    
+    }
+    .text-title{
+        width: 200px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        border-bottom: 2px gold solid;
+       
+    }
+    .text-title h2{
+        font-size: 1.6rem;
+    }
+    .text-title h3{
+        font-size: 0.5rem;
+        letter-spacing: 3px;
+        padding-bottom: 10px;
+    }
+    .cont-caracteristica{
+        width: 80%;
+        height: 150px;
+        margin: 0 auto;
+        border: 1px goldenrod solid;
+        border-radius: 15px;
+        position: absolute;
+        bottom: 80px;
+    }
+    .caracteristica{
+        width: 95%;
+        height: 100%;
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        line-height: 15px;
+        
+
+        
+    }
+    .caracteristica h2{
+        font-size: 1rem;
+    }
+    .caracteristica h4{
+        font-size: 0.5rem;
+    }
+
+    .caracteristica h3{
+        font-family: MSUIGHUR;
+        font-weight: 100;
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    .cont-button{
+        width: 100%;
+        height: 30px;
+       
+    
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        z-index: 99;
+        
+    }
+    .cont-button a{
+        text-decoration: none;
+        padding: 5px;
+        background: #333333;
+        border-radius: 10px;
+        color: gold;
+        margin-top: 10px;
+        font-size: 1rem;
+        text-align: end;
+        
+    
+    }
+    .figure-catalogo{
+        width: 80%;
+        height: 300px;
+        position: relative;
+        top: 25px;
+        z-index: -10;
+    
+    }
+    .figure-catalogo img{
+        width: 100%;
+        height: 100%;
+    
+        filter: drop-shadow(0 2px 5px rgba(83, 88, 26, 0.7));
+    }
+}
+
+
+
